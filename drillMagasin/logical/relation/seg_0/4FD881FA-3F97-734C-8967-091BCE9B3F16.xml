@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_11" directorySegmentName="seg_0" id="4FD881FA-3F97-734C-8967-091BCE9B3F16">
+<createdBy>lcaffarelli2022</createdBy>
+<createdTime>2023-02-22 09:04:53 UTC</createdTime>
+<ownerDesignName>drillMagasin</ownerDesignName>
+<engineerTo>
+<item key="1926C52E-5DB9-50A2-FB02-0ABC8CF3D0B9" value="true"/>
+</engineerTo>
+<sourcePk>EED49BC7-FFC0-F00E-1B90-CF018A700CE4</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>FC69948D-B12A-0EF6-CD88-B4F8006B1FF1</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>31CB5116-96C2-643C-83E6-750DA1A743BA</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

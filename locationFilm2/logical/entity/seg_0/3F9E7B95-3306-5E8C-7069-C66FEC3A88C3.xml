@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3F9E7B95-3306-5E8C-7069-C66FEC3A88C3" name="COPIE">
+<createdBy>lcaffarelli2022</createdBy>
+<createdTime>2023-02-22 10:34:58 UTC</createdTime>
+<ownerDesignName>locationFilm2</ownerDesignName>
+<engineerTo>
+<item key="D74A1F1D-A084-5A84-37C0-15CB89AB1C7E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="no_copie" id="EDEA9B83-4456-B60F-59C1-7842D15CB4C8">
+<createdBy>lcaffarelli2022</createdBy>
+<createdTime>2023-02-22 10:34:58 UTC</createdTime>
+<ownerDesignName>locationFilm2</ownerDesignName>
+<importedID>164CF9AE-F5A3-7FBE-FED8-FFFC1A4716D1</importedID>
+<engineerTo>
+<item key="D74A1F1D-A084-5A84-37C0-15CB89AB1C7E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nbr_location" id="9F6FD1DE-5501-08F8-66EC-9048FCFB82EC">
+<createdBy>lcaffarelli2022</createdBy>
+<createdTime>2023-02-22 10:34:58 UTC</createdTime>
+<ownerDesignName>locationFilm2</ownerDesignName>
+<importedID>3DCAF690-6493-822A-7A4E-309EFA9682C6</importedID>
+<engineerTo>
+<item key="D74A1F1D-A084-5A84-37C0-15CB89AB1C7E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="état" id="B6F9764B-C71C-FC57-2889-2C2F53ADEEE6">
+<createdBy>lcaffarelli2022</createdBy>
+<createdTime>2023-02-22 10:34:58 UTC</createdTime>
+<ownerDesignName>locationFilm2</ownerDesignName>
+<importedID>BB5FE6DD-BE5B-FAD2-7D6C-FEE96D3FBE3C</importedID>
+<engineerTo>
+<item key="D74A1F1D-A084-5A84-37C0-15CB89AB1C7E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="no_format" id="F66F4E1C-439C-0700-8A9B-AA343DA0FC7E">
+<createdBy>lcaffarelli2022</createdBy>
+<createdTime>2023-02-22 10:34:58 UTC</createdTime>
+<generatorID>08662456-E8D8-08E8-D33B-212ECCFA5422</generatorID>
+<ownerDesignName>locationFilm2</ownerDesignName>
+<importedID>13B4EC08-5B35-93C7-DB1E-8DDC8E4D4745</importedID>
+<engineerTo>
+<item key="D74A1F1D-A084-5A84-37C0-15CB89AB1C7E" value="true"/>
+</engineerTo>
+<referedAttribute>EC1AE120-773B-DA7D-4717-8A8D3F59E496</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="no_Film" id="80AB4731-6380-BCC0-A934-A9F20BE96925">
+<createdBy>lcaffarelli2022</createdBy>
+<createdTime>2023-02-22 10:58:14 UTC</createdTime>
+<generatorID>2DC47FF5-AEFD-6EDF-A19B-5A5C7704C3E1</generatorID>
+<ownerDesignName>locationFilm2</ownerDesignName>
+<engineerTo>
+<item key="D74A1F1D-A084-5A84-37C0-15CB89AB1C7E" value="true"/>
+</engineerTo>
+<referedAttribute>627B960C-99BA-5888-A86B-40D8E41EE605</referedAttribute>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B608B125-BC0C-3D3B-6647-E5B5F69F2686" name="FILM PK">
+<createdBy>lcaffarelli2022</createdBy>
+<createdTime>2023-02-22 10:34:58 UTC</createdTime>
+<ownerDesignName>locationFilm2</ownerDesignName>
+<engineerTo>
+<item key="D74A1F1D-A084-5A84-37C0-15CB89AB1C7E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EDEA9B83-4456-B60F-59C1-7842D15CB4C8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

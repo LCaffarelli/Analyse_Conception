@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BBD380B9-B307-F2B0-04FD-65148A67455A" name="FILM">
+<createdBy>lcaffarelli2022</createdBy>
+<createdTime>2023-02-21 13:32:08 UTC</createdTime>
+<ownerDesignName>locationFilm</ownerDesignName>
+<engineerTo>
+<item key="1DC16C58-F9ED-1B3A-75F5-6CA2BE758FE2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="identifiant" id="0F17B673-9DBB-834D-3F80-74AC2B93F982">
+<createdBy>lcaffarelli2022</createdBy>
+<createdTime>2023-02-21 13:32:22 UTC</createdTime>
+<ownerDesignName>locationFilm</ownerDesignName>
+<engineerTo>
+<item key="1DC16C58-F9ED-1B3A-75F5-6CA2BE758FE2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="titre" id="91EDA7DA-4423-9969-9EFB-51B48070D402">
+<createdBy>lcaffarelli2022</createdBy>
+<createdTime>2023-02-21 13:32:29 UTC</createdTime>
+<ownerDesignName>locationFilm</ownerDesignName>
+<engineerTo>
+<item key="1DC16C58-F9ED-1B3A-75F5-6CA2BE758FE2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numCategorie" id="5586D4D9-C98C-3235-BFAE-92B525F184DE">
+<createdBy>lcaffarelli2022</createdBy>
+<createdTime>2023-02-21 15:07:27 UTC</createdTime>
+<generatorID>71780460-7B1D-CD15-EFEA-2D9F9D432A0F</generatorID>
+<ownerDesignName>locationFilm</ownerDesignName>
+<engineerTo>
+<item key="1DC16C58-F9ED-1B3A-75F5-6CA2BE758FE2" value="true"/>
+</engineerTo>
+<referedAttribute>A1118CC5-CAA6-C8CD-FA17-052C8C223118</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F16FA519-9C91-A19F-4C81-EE6B7F15E696" name="FILM PK">
+<createdBy>lcaffarelli2022</createdBy>
+<createdTime>2023-02-21 13:32:28 UTC</createdTime>
+<ownerDesignName>locationFilm</ownerDesignName>
+<engineerTo>
+<item key="1DC16C58-F9ED-1B3A-75F5-6CA2BE758FE2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0F17B673-9DBB-834D-3F80-74AC2B93F982</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

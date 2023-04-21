@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8DB286C0-EE70-6B92-23DB-E3453B46751F" name="COPIE LOUEE">
+<createdBy>lcaffarelli2022</createdBy>
+<createdTime>2023-02-22 11:14:24 UTC</createdTime>
+<ownerDesignName>locationFilm2</ownerDesignName>
+<engineerTo>
+<item key="D74A1F1D-A084-5A84-37C0-15CB89AB1C7E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_Copie_Louee" id="9A3D5E56-2457-54C3-E066-4C14860A91FB">
+<createdBy>lcaffarelli2022</createdBy>
+<createdTime>2023-02-22 13:39:40 UTC</createdTime>
+<ownerDesignName>locationFilm2</ownerDesignName>
+<engineerTo>
+<item key="D74A1F1D-A084-5A84-37C0-15CB89AB1C7E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="date_retour" id="0165CD9C-4541-BFEF-E9C2-AA1FF3A82120">
+<createdBy>lcaffarelli2022</createdBy>
+<createdTime>2023-02-22 11:14:40 UTC</createdTime>
+<ownerDesignName>locationFilm2</ownerDesignName>
+<engineerTo>
+<item key="D74A1F1D-A084-5A84-37C0-15CB89AB1C7E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="num_Location" id="A598A88A-2C97-CC81-292E-DC39A9F413D9">
+<createdBy>lcaffarelli2022</createdBy>
+<createdTime>2023-02-22 11:15:27 UTC</createdTime>
+<generatorID>FE22C462-A8CB-8D84-3DB6-DE1CE7727ECF</generatorID>
+<ownerDesignName>locationFilm2</ownerDesignName>
+<engineerTo>
+<item key="D74A1F1D-A084-5A84-37C0-15CB89AB1C7E" value="true"/>
+</engineerTo>
+<referedAttribute>E07B5AC7-B15D-218D-9006-E0F9E7CC0F58</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="no_copie" id="759C4191-AC3E-F74D-8991-723F04A7FEC1">
+<createdBy>lcaffarelli2022</createdBy>
+<createdTime>2023-02-22 11:15:35 UTC</createdTime>
+<generatorID>1C73C04D-F3A4-54CE-DB56-E56507A17AE8</generatorID>
+<ownerDesignName>locationFilm2</ownerDesignName>
+<engineerTo>
+<item key="D74A1F1D-A084-5A84-37C0-15CB89AB1C7E" value="true"/>
+</engineerTo>
+<referedAttribute>EDEA9B83-4456-B60F-59C1-7842D15CB4C8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7D784D5C-31DF-D6D0-773E-F8C7BADC9376" name="COPIE LOUEE PK">
+<createdBy>lcaffarelli2022</createdBy>
+<createdTime>2023-02-22 11:15:29 UTC</createdTime>
+<ownerDesignName>locationFilm2</ownerDesignName>
+<engineerTo>
+<item key="D74A1F1D-A084-5A84-37C0-15CB89AB1C7E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A598A88A-2C97-CC81-292E-DC39A9F413D9</attributeRef>
+<attributeRef>9A3D5E56-2457-54C3-E066-4C14860A91FB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

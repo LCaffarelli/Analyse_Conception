@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="353BE0BB-AD5B-174F-ED2A-4065A614CC6B" name="COPIE">
+<createdBy>lcaffarelli2022</createdBy>
+<createdTime>2023-02-21 13:34:19 UTC</createdTime>
+<ownerDesignName>locationFilm</ownerDesignName>
+<engineerTo>
+<item key="1DC16C58-F9ED-1B3A-75F5-6CA2BE758FE2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="numCopie" id="0D5F56A8-942F-0B06-490E-D8D1039618DE">
+<createdBy>lcaffarelli2022</createdBy>
+<createdTime>2023-02-21 13:45:56 UTC</createdTime>
+<ownerDesignName>locationFilm</ownerDesignName>
+<engineerTo>
+<item key="1DC16C58-F9ED-1B3A-75F5-6CA2BE758FE2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="etat" id="32C7397D-91D4-0391-4810-6BB71B715884">
+<createdBy>lcaffarelli2022</createdBy>
+<createdTime>2023-02-21 13:34:39 UTC</createdTime>
+<comment><![CDATA[Soit 'N','B','Mo' ou 'Ma']]></comment>
+<ownerDesignName>locationFilm</ownerDesignName>
+<engineerTo>
+<item key="1DC16C58-F9ED-1B3A-75F5-6CA2BE758FE2" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>88797921-839B-E7E8-E7DF-9F34B9144C78</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="identifiant" id="A2F5B676-D308-FE4A-23B7-E758C6D6F3EA">
+<createdBy>lcaffarelli2022</createdBy>
+<createdTime>2023-02-21 13:35:56 UTC</createdTime>
+<generatorID>E29A1FF1-2E32-CC42-0B5A-921F70BB6840</generatorID>
+<ownerDesignName>locationFilm</ownerDesignName>
+<engineerTo>
+<item key="1DC16C58-F9ED-1B3A-75F5-6CA2BE758FE2" value="true"/>
+</engineerTo>
+<referedAttribute>0F17B673-9DBB-834D-3F80-74AC2B93F982</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="identifiant1" id="09ED1DCA-4363-CF0C-0322-1ABB406AA3E3">
+<createdBy>lcaffarelli2022</createdBy>
+<createdTime>2023-02-21 13:49:20 UTC</createdTime>
+<generatorID>65D63687-4101-F6B0-7811-93C371E7B6E6</generatorID>
+<ownerDesignName>locationFilm</ownerDesignName>
+<engineerTo>
+<item key="1DC16C58-F9ED-1B3A-75F5-6CA2BE758FE2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>8CD600A6-8503-562D-F6BB-AF42F1DCB232</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nbLocation" id="CF2CC4E5-BC32-182F-72EE-9AEFDDF0A3A5">
+<createdBy>lcaffarelli2022</createdBy>
+<createdTime>2023-02-21 14:03:49 UTC</createdTime>
+<ownerDesignName>locationFilm</ownerDesignName>
+<engineerTo>
+<item key="1DC16C58-F9ED-1B3A-75F5-6CA2BE758FE2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numFormat" id="04C6C2BC-C6E5-0F3F-0382-1035809CF391">
+<createdBy>lcaffarelli2022</createdBy>
+<createdTime>2023-02-21 15:08:03 UTC</createdTime>
+<generatorID>5197AFB9-33B6-1C94-27CF-6C24E0BF75FA</generatorID>
+<ownerDesignName>locationFilm</ownerDesignName>
+<engineerTo>
+<item key="1DC16C58-F9ED-1B3A-75F5-6CA2BE758FE2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>D9B0E262-4322-BAF9-4CAE-4C80FC87F59E</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9C09E520-DDAD-BA71-2D6F-4483731202C8" name="COPIE PK">
+<createdBy>lcaffarelli2022</createdBy>
+<createdTime>2023-02-21 13:36:26 UTC</createdTime>
+<ownerDesignName>locationFilm</ownerDesignName>
+<engineerTo>
+<item key="1DC16C58-F9ED-1B3A-75F5-6CA2BE758FE2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0D5F56A8-942F-0B06-490E-D8D1039618DE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

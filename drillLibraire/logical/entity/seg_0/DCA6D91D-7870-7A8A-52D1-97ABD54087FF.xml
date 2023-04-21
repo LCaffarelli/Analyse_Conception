@@ -1,0 +1,43 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DCA6D91D-7870-7A8A-52D1-97ABD54087FF" name="STOCK">
+<createdBy>lcaffarelli2022</createdBy>
+<createdTime>2023-02-21 11:25:46 UTC</createdTime>
+<ownerDesignName>drillLibraire</ownerDesignName>
+<engineerTo>
+<item key="FB34C391-753B-DDF7-FFC0-40395128AD35" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="quantité" id="368143A0-80DE-393D-AAA0-D1D53E37DFA4">
+<createdBy>lcaffarelli2022</createdBy>
+<createdTime>2023-02-21 11:27:32 UTC</createdTime>
+<ownerDesignName>drillLibraire</ownerDesignName>
+<engineerTo>
+<item key="FB34C391-753B-DDF7-FFC0-40395128AD35" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ISBN" id="3AB1C049-E3F8-2CC3-31A2-7AF910EF9FBA">
+<createdBy>lcaffarelli2022</createdBy>
+<createdTime>2023-02-21 11:29:51 UTC</createdTime>
+<generatorID>8FC45FDD-9639-9A4B-1440-0131CB84603D</generatorID>
+<ownerDesignName>drillLibraire</ownerDesignName>
+<engineerTo>
+<item key="FB34C391-753B-DDF7-FFC0-40395128AD35" value="true"/>
+</engineerTo>
+<referedAttribute>F3C032BD-E83A-00A4-2CB6-F572865B7078</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="766A3181-E76E-E25C-4877-45E0C05002CF" name="STOCK">
+<createdBy>lcaffarelli2022</createdBy>
+<createdTime>2023-02-21 13:16:52 UTC</createdTime>
+<ownerDesignName>correctionLib</ownerDesignName>
+<engineerTo>
+<item key="4336BCFB-E976-8BB4-8CC2-3D917F7407E6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="quantité" id="80730806-F5AE-450A-D7A6-4CDE8E557F6C">
+<createdBy>lcaffarelli2022</createdBy>
+<createdTime>2023-02-21 13:17:41 UTC</createdTime>
+<ownerDesignName>correctionLib</ownerDesignName>
+<engineerTo>
+<item key="4336BCFB-E976-8BB4-8CC2-3D917F7407E6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="isbn" id="A0B3B121-761C-085C-6018-FD68A4A9B685">
+<createdBy>lcaffarelli2022</createdBy>
+<createdTime>2023-02-21 13:18:35 UTC</createdTime>
+<generatorID>8D35EE64-0593-6C10-F083-6AC561421B9F</generatorID>
+<ownerDesignName>correctionLib</ownerDesignName>
+<engineerTo>
+<item key="4336BCFB-E976-8BB4-8CC2-3D917F7407E6" value="true"/>
+</engineerTo>
+<referedAttribute>19BE70F9-046F-54AB-B209-AAE9C92257D8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3035FC17-B9E6-E168-7B58-FB856200F661" name="STOCK PK">
+<createdBy>lcaffarelli2022</createdBy>
+<createdTime>2023-02-21 13:18:47 UTC</createdTime>
+<ownerDesignName>correctionLib</ownerDesignName>
+<engineerTo>
+<item key="4336BCFB-E976-8BB4-8CC2-3D917F7407E6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A0B3B121-761C-085C-6018-FD68A4A9B685</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

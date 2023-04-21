@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="locationFilm" id="B189DE9A-583D-7C04-89A0-75777A4A7906" version="3.5">
+<createdBy>lcaffarelli2022</createdBy>
+<createdTime>2023-02-21 13:21:10 UTC</createdTime>
+<ownerDesignName>locationFilm</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>B189DE9A-583D-7C04-89A0-75777A4A7906</designId>
+</OSDM_Design>

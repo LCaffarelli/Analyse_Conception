@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="correctionLib" id="AD478DC2-A5B1-5971-4632-AC3CC1AEA992" version="3.5">
+<createdBy>lcaffarelli2022</createdBy>
+<createdTime>2023-02-21 13:16:13 UTC</createdTime>
+<ownerDesignName>correctionLib</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>AD478DC2-A5B1-5971-4632-AC3CC1AEA992</designId>
+</OSDM_Design>

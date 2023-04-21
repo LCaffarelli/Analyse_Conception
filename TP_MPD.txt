@@ -1,0 +1,55 @@
+CLIENTS(
+no_client{PK,NN}
+nom {NN}
+prenom {NN}
+ville {}
+date_Naissance {}
+telephone {UK}
+
+)
+
+COMMANDES(
+no_commande {PK,NN}
+date_commande {NN}
+total {NN}
+date_livraison {}
+type_livraison {}
+no_client {FK(CLIENTS.no_client)}
+
+)
+
+LGNES(
+no_ligne {PK,NN}
+quantite {NN}
+prix_unitaire_negocie {NN}
+no_commande{PK,FK(COMMANDES.no_commande),NN}
+no_article {FK(ARTICLES.no_article),NN}
+
+)
+
+ARTICLES(
+no_article {PK,NN}
+reference {NN}
+description {NN}
+
+)
+
+CREATE TABLE COMMANDES(
+no_commande int Identity(1,1) Primary Key,
+date_commande date not null,
+total decimal(4,2) not null,
+date_livraison date,
+type_livraison varchar(30),
+no_client int not null
+)
+
+
+ALTER TABLE COMMANDES
+    ADD CONSTRAINT COMMANDES_CLIENTS_FK FOREIGN KEY ( no_client )
+    REFERENCES CLIENTS ( no_client )
+	ON DELETE CASCADE
+
+ALTER TABLE COMMANDES
+	ADD CONSTRAINT COMMANDES_type_livraison_ck 
+	CHECK (type_livraison IN ('EN_MAGASIN','LIVRAISON_EXPRESS','LIVRAISON_NORMALE'))
+	

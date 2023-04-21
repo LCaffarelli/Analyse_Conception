@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.logical.DPVLogical" name="Logical" id="3B28DCDD-6F05-1E63-78F2-8BBA45A7DF64">
+<createdBy>lcaffarelli2022</createdBy>
+<modifiedBy>lcaffarelli2022</modifiedBy>
+<createdTime>2023-02-21 11:13:52 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>true</showLabels>
+<showRelAttributes>true</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<notation>1</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="20077B05-14D9-2FA4-5DFD-1C368777B2D3" otype="Note" vid="ADB8FC96-357D-BA38-EA6F-1AE1E05AB716">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="962" y="440" width="95" height="40"/>
+<comment>Cliquez deux fois pour 
+modifier le texte.</comment>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="CB722360-9C06-0E68-7BB5-61583DEC1A78" otype="Entity" vid="B8CEFEC2-C9EF-53B3-8BA5-FBAB49AB2ECE">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="168" y="140" width="176" height="215"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="DCA6D91D-7870-7A8A-52D1-97ABD54087FF" otype="Entity" vid="72443A7B-76CC-974F-6C8F-B7B30AB86DAF">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="636" y="140" width="180" height="213"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="F71F79A7-7E8C-20B6-BBA6-0C950C59A4A9" otype="Note" vid="6352456B-45D6-8C16-648F-2F04DAED08CB">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="907" y="155" width="335" height="228"/>
+<comment>répond à l&apos;ennoncé car on acces au titre et à l&apos;isbn donc on peut supprimer, ajouter, etc des livres
+
+On a pas le le libraire dans le modele car il n&apos;y en a qu&apos;un. Il y aurait plusieurs librairie on aurait pu la rajouter, car suivant les magasins pas forcement les memes livres.
+
+One to one car chaque livre a une quantité</comment>
+</OView>
+</objectViews>
+<connectors>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="8FC45FDD-9639-9A4B-1440-0131CB84603D" otype="Relation" vid_source="B8CEFEC2-C9EF-53B3-8BA5-FBAB49AB2ECE" vid_target="72443A7B-76CC-974F-6C8F-B7B30AB86DAF">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="344" y="246"/>
+<point x="636" y="246"/>
+</points>
+</Connector>
+</connectors>
+</Diagram>

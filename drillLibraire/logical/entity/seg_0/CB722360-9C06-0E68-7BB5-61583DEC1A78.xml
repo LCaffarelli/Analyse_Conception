@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CB722360-9C06-0E68-7BB5-61583DEC1A78" name="LIVRE">
+<createdBy>lcaffarelli2022</createdBy>
+<createdTime>2023-02-21 11:16:51 UTC</createdTime>
+<ownerDesignName>drillLibraire</ownerDesignName>
+<engineerTo>
+<item key="FB34C391-753B-DDF7-FFC0-40395128AD35" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ISBN" id="F3C032BD-E83A-00A4-2CB6-F572865B7078">
+<createdBy>lcaffarelli2022</createdBy>
+<createdTime>2023-02-21 11:16:58 UTC</createdTime>
+<ownerDesignName>drillLibraire</ownerDesignName>
+<engineerTo>
+<item key="FB34C391-753B-DDF7-FFC0-40395128AD35" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="titre" id="370C8831-FE37-0ABD-A3ED-686760F7BBD5">
+<createdBy>lcaffarelli2022</createdBy>
+<createdTime>2023-02-21 11:28:07 UTC</createdTime>
+<ownerDesignName>drillLibraire</ownerDesignName>
+<engineerTo>
+<item key="FB34C391-753B-DDF7-FFC0-40395128AD35" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3B9925D3-B18D-AF1D-15C3-FC61B73A7B15" name="Livre PK">
+<createdBy>lcaffarelli2022</createdBy>
+<createdTime>2023-02-21 11:17:02 UTC</createdTime>
+<ownerDesignName>drillLibraire</ownerDesignName>
+<engineerTo>
+<item key="FB34C391-753B-DDF7-FFC0-40395128AD35" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F3C032BD-E83A-00A4-2CB6-F572865B7078</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

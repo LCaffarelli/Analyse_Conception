@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="9A29942C-12F6-0769-A91A-6EE629A5BD58" name="LIVRE" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="01176E43-64BE-DF73-6F2B-24E10C56FD82" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="766A3181-E76E-E25C-4877-45E0C05002CF" name="STOCK" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="01176E43-64BE-DF73-6F2B-24E10C56FD82" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="8D35EE64-0593-6C10-F083-6AC561421B9F" name="Relation_2" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="01176E43-64BE-DF73-6F2B-24E10C56FD82" propertySourceId="9A29942C-12F6-0769-A91A-6EE629A5BD58" propertyTargetId="766A3181-E76E-E25C-4877-45E0C05002CF"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

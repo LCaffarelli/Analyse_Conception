@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9A29942C-12F6-0769-A91A-6EE629A5BD58" name="LIVRE">
+<createdBy>lcaffarelli2022</createdBy>
+<createdTime>2023-02-21 13:16:32 UTC</createdTime>
+<ownerDesignName>correctionLib</ownerDesignName>
+<engineerTo>
+<item key="4336BCFB-E976-8BB4-8CC2-3D917F7407E6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="isbn" id="19BE70F9-046F-54AB-B209-AAE9C92257D8">
+<createdBy>lcaffarelli2022</createdBy>
+<createdTime>2023-02-21 13:17:06 UTC</createdTime>
+<ownerDesignName>correctionLib</ownerDesignName>
+<engineerTo>
+<item key="4336BCFB-E976-8BB4-8CC2-3D917F7407E6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nom" id="874C05C3-CB36-EE12-D049-198B6B26CEAE">
+<createdBy>lcaffarelli2022</createdBy>
+<createdTime>2023-02-21 13:17:16 UTC</createdTime>
+<ownerDesignName>correctionLib</ownerDesignName>
+<engineerTo>
+<item key="4336BCFB-E976-8BB4-8CC2-3D917F7407E6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1AEF1A07-4008-98ED-184D-AD2B95053682" name="LIVRE PK">
+<createdBy>lcaffarelli2022</createdBy>
+<createdTime>2023-02-21 13:17:14 UTC</createdTime>
+<ownerDesignName>correctionLib</ownerDesignName>
+<engineerTo>
+<item key="4336BCFB-E976-8BB4-8CC2-3D917F7407E6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>19BE70F9-046F-54AB-B209-AAE9C92257D8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6258785C-7C20-E319-AB5C-1F8053F5467B" name="HABITANT">
+<createdBy>lcaffarelli2022</createdBy>
+<createdTime>2023-02-21 15:29:46 UTC</createdTime>
+<ownerDesignName>drillHabitant</ownerDesignName>
+<engineerTo>
+<item key="A9C014AD-25B2-48F9-3A89-77E8F31D510C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="insee" id="41EEDB3D-EF64-3300-B3E5-65B172E71A1C">
+<createdBy>lcaffarelli2022</createdBy>
+<createdTime>2023-02-21 15:30:00 UTC</createdTime>
+<ownerDesignName>drillHabitant</ownerDesignName>
+<engineerTo>
+<item key="A9C014AD-25B2-48F9-3A89-77E8F31D510C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nom" id="B7500CFA-2DF3-32DC-CF9D-B7648DB829A7">
+<createdBy>lcaffarelli2022</createdBy>
+<createdTime>2023-02-21 15:29:56 UTC</createdTime>
+<ownerDesignName>drillHabitant</ownerDesignName>
+<engineerTo>
+<item key="A9C014AD-25B2-48F9-3A89-77E8F31D510C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="prenom" id="7CF84BEC-83D9-A834-D220-5E8C6891B944">
+<createdBy>lcaffarelli2022</createdBy>
+<createdTime>2023-02-21 15:30:12 UTC</createdTime>
+<ownerDesignName>drillHabitant</ownerDesignName>
+<engineerTo>
+<item key="A9C014AD-25B2-48F9-3A89-77E8F31D510C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numRegion" id="28C09E53-7160-32C0-5AFF-B96617AF83BD">
+<createdBy>lcaffarelli2022</createdBy>
+<createdTime>2023-02-21 15:59:18 UTC</createdTime>
+<generatorID>791A332D-961F-F702-741E-AE26F241D5FA</generatorID>
+<ownerDesignName>drillHabitant</ownerDesignName>
+<engineerTo>
+<item key="A9C014AD-25B2-48F9-3A89-77E8F31D510C" value="true"/>
+</engineerTo>
+<referedAttribute>2BF6F1AA-C577-1290-42D5-03E9C4481BCB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="noAdresse" id="E77BF9BC-1CD5-0E39-26FF-C038C08AE083">
+<createdBy>lcaffarelli2022</createdBy>
+<createdTime>2023-02-21 16:00:38 UTC</createdTime>
+<generatorID>D968C417-4956-53AB-05A3-3BAA83E3BCDE</generatorID>
+<ownerDesignName>drillHabitant</ownerDesignName>
+<engineerTo>
+<item key="A9C014AD-25B2-48F9-3A89-77E8F31D510C" value="true"/>
+</engineerTo>
+<referedAttribute>B121A1FE-D6B0-4955-AC7C-B6518B388889</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F0593B61-6FFF-81FE-CCB0-D170697E7E6C" name="HABITANT PK">
+<createdBy>lcaffarelli2022</createdBy>
+<createdTime>2023-02-21 15:30:05 UTC</createdTime>
+<ownerDesignName>drillHabitant</ownerDesignName>
+<engineerTo>
+<item key="A9C014AD-25B2-48F9-3A89-77E8F31D510C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>41EEDB3D-EF64-3300-B3E5-65B172E71A1C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

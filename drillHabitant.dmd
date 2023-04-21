@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="drillHabitant" id="DD7A4B9C-E1A3-749E-0F67-9108A14B773A" version="3.5">
+<createdBy>lcaffarelli2022</createdBy>
+<createdTime>2023-02-21 15:24:57 UTC</createdTime>
+<ownerDesignName>drillHabitant</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>DD7A4B9C-E1A3-749E-0F67-9108A14B773A</designId>
+</OSDM_Design>

@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="371DC9F3-8067-666F-203D-84B97674935D" name="REGION">
+<createdBy>lcaffarelli2022</createdBy>
+<createdTime>2023-02-21 15:28:51 UTC</createdTime>
+<ownerDesignName>drillHabitant</ownerDesignName>
+<engineerTo>
+<item key="A9C014AD-25B2-48F9-3A89-77E8F31D510C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="numRegion" id="2BF6F1AA-C577-1290-42D5-03E9C4481BCB">
+<createdBy>lcaffarelli2022</createdBy>
+<createdTime>2023-02-21 15:29:05 UTC</createdTime>
+<ownerDesignName>drillHabitant</ownerDesignName>
+<engineerTo>
+<item key="A9C014AD-25B2-48F9-3A89-77E8F31D510C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nom" id="536F9B45-53E5-F752-7B9A-ED33C253D2DE">
+<createdBy>lcaffarelli2022</createdBy>
+<createdTime>2023-02-21 15:29:13 UTC</createdTime>
+<ownerDesignName>drillHabitant</ownerDesignName>
+<engineerTo>
+<item key="A9C014AD-25B2-48F9-3A89-77E8F31D510C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nom1" id="78900A86-E820-6CE3-04EB-DE08BA011966">
+<createdBy>lcaffarelli2022</createdBy>
+<createdTime>2023-02-21 15:33:11 UTC</createdTime>
+<generatorID>5274DFE2-D335-DDD4-F58A-2DE83201C410</generatorID>
+<ownerDesignName>drillHabitant</ownerDesignName>
+<engineerTo>
+<item key="A9C014AD-25B2-48F9-3A89-77E8F31D510C" value="true"/>
+</engineerTo>
+<referedAttribute>284915F7-27FC-3C8F-1209-EC2AEFF16E96</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C767EE57-3A32-6D64-74FB-2DCBD70DA3AA" name="REGION PK">
+<createdBy>lcaffarelli2022</createdBy>
+<createdTime>2023-02-21 15:29:12 UTC</createdTime>
+<ownerDesignName>drillHabitant</ownerDesignName>
+<engineerTo>
+<item key="A9C014AD-25B2-48F9-3A89-77E8F31D510C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2BF6F1AA-C577-1290-42D5-03E9C4481BCB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

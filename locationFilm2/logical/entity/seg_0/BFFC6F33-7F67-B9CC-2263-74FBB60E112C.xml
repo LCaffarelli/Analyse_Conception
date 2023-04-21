@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BFFC6F33-7F67-B9CC-2263-74FBB60E112C" name="FORMAT">
+<createdBy>lcaffarelli2022</createdBy>
+<createdTime>2023-02-22 10:34:58 UTC</createdTime>
+<ownerDesignName>locationFilm2</ownerDesignName>
+<engineerTo>
+<item key="D74A1F1D-A084-5A84-37C0-15CB89AB1C7E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="no_format" id="EC1AE120-773B-DA7D-4717-8A8D3F59E496">
+<createdBy>lcaffarelli2022</createdBy>
+<createdTime>2023-02-22 10:34:58 UTC</createdTime>
+<ownerDesignName>locationFilm2</ownerDesignName>
+<importedID>9F3CC696-8E41-80FB-0728-5E49AF49F22D</importedID>
+<engineerTo>
+<item key="D74A1F1D-A084-5A84-37C0-15CB89AB1C7E" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="libellé" id="C7F5B473-C592-DE5C-0ACA-94788841BF2B">
+<createdBy>lcaffarelli2022</createdBy>
+<createdTime>2023-02-22 10:34:58 UTC</createdTime>
+<ownerDesignName>locationFilm2</ownerDesignName>
+<importedID>27EAD273-6244-F9F3-06DB-DEE03876820D</importedID>
+<engineerTo>
+<item key="D74A1F1D-A084-5A84-37C0-15CB89AB1C7E" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="coef-Tarif" id="D2C7D2FF-2CF6-3861-C2FC-7536BE70C689">
+<createdBy>lcaffarelli2022</createdBy>
+<createdTime>2023-02-22 13:19:22 UTC</createdTime>
+<ownerDesignName>locationFilm2</ownerDesignName>
+<engineerTo>
+<item key="D74A1F1D-A084-5A84-37C0-15CB89AB1C7E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1043AA5B-D0A8-43DA-FA9C-E07A28A8FAF4" name="FORMAT PK">
+<createdBy>lcaffarelli2022</createdBy>
+<createdTime>2023-02-22 10:34:58 UTC</createdTime>
+<ownerDesignName>locationFilm2</ownerDesignName>
+<engineerTo>
+<item key="D74A1F1D-A084-5A84-37C0-15CB89AB1C7E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EC1AE120-773B-DA7D-4717-8A8D3F59E496</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7496D061-3DDA-DCC0-EF83-0FC9236337C0" name="COMMANDE CORRECTION">
+<createdBy>lcaffarelli2022</createdBy>
+<createdTime>2023-02-22 08:48:16 UTC</createdTime>
+<ownerDesignName>drillMagasin</ownerDesignName>
+<engineerTo>
+<item key="1926C52E-5DB9-50A2-FB02-0ABC8CF3D0B9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="num_Commande" id="46DF057B-D437-42CA-AF94-A1E0297DAC03">
+<createdBy>lcaffarelli2022</createdBy>
+<createdTime>2023-02-22 08:48:16 UTC</createdTime>
+<ownerDesignName>drillMagasin</ownerDesignName>
+<engineerTo>
+<item key="1926C52E-5DB9-50A2-FB02-0ABC8CF3D0B9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="date_Commande" id="403E4525-5738-8C6E-94CE-87DA0E253A24">
+<createdBy>lcaffarelli2022</createdBy>
+<createdTime>2023-02-22 08:48:16 UTC</createdTime>
+<ownerDesignName>drillMagasin</ownerDesignName>
+<engineerTo>
+<item key="1926C52E-5DB9-50A2-FB02-0ABC8CF3D0B9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="date_Livraison" id="CD1A803D-AEE0-DADC-7285-7F98F2C3C75A">
+<createdBy>lcaffarelli2022</createdBy>
+<createdTime>2023-02-22 08:48:16 UTC</createdTime>
+<ownerDesignName>drillMagasin</ownerDesignName>
+<engineerTo>
+<item key="1926C52E-5DB9-50A2-FB02-0ABC8CF3D0B9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_Client" id="DB00A62B-F6E0-31D3-3368-B6335A539102">
+<createdBy>lcaffarelli2022</createdBy>
+<createdTime>2023-02-22 08:48:53 UTC</createdTime>
+<generatorID>958B90CC-6603-FFA0-A22C-E5A119E1C1E4</generatorID>
+<ownerDesignName>drillMagasin</ownerDesignName>
+<engineerTo>
+<item key="1926C52E-5DB9-50A2-FB02-0ABC8CF3D0B9" value="true"/>
+</engineerTo>
+<referedAttribute>596383CA-013B-37D4-525B-4483655BFF6C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="40D30CA8-5E9A-1C47-A304-C968F46C3490" name="COMMANDE PK">
+<createdBy>lcaffarelli2022</createdBy>
+<createdTime>2023-02-22 08:48:16 UTC</createdTime>
+<ownerDesignName>drillMagasin</ownerDesignName>
+<engineerTo>
+<item key="1926C52E-5DB9-50A2-FB02-0ABC8CF3D0B9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>46DF057B-D437-42CA-AF94-A1E0297DAC03</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

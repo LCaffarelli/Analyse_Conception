@@ -1,0 +1,56 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="15A4EA28-1F0E-D481-D8F5-8E8F4FEA41C1" name="CATEGORIE">
+<createdBy>lcaffarelli2022</createdBy>
+<createdTime>2023-02-22 10:34:58 UTC</createdTime>
+<ownerDesignName>locationFilm2</ownerDesignName>
+<engineerTo>
+<item key="D74A1F1D-A084-5A84-37C0-15CB89AB1C7E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="no_categorie" id="08DF4E9C-762C-3DE6-B6AC-178D80AAA0D1">
+<createdBy>lcaffarelli2022</createdBy>
+<createdTime>2023-02-22 10:34:58 UTC</createdTime>
+<ownerDesignName>locationFilm2</ownerDesignName>
+<importedID>3E0E537F-D973-9EB5-C8DA-6E46A1C6B764</importedID>
+<engineerTo>
+<item key="D74A1F1D-A084-5A84-37C0-15CB89AB1C7E" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="libellé" id="EB4C83C6-9F40-6181-3119-0A5199C9A59E">
+<createdBy>lcaffarelli2022</createdBy>
+<createdTime>2023-02-22 10:34:58 UTC</createdTime>
+<ownerDesignName>locationFilm2</ownerDesignName>
+<importedID>3DB1470D-38CE-4DD6-1DE5-1350704883E0</importedID>
+<engineerTo>
+<item key="D74A1F1D-A084-5A84-37C0-15CB89AB1C7E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="31EDEA53-D5AC-D3D4-D072-DE48C706F041" name="CATEGORIE PK">
+<createdBy>lcaffarelli2022</createdBy>
+<createdTime>2023-02-22 10:34:58 UTC</createdTime>
+<ownerDesignName>locationFilm2</ownerDesignName>
+<engineerTo>
+<item key="D74A1F1D-A084-5A84-37C0-15CB89AB1C7E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>08DF4E9C-762C-3DE6-B6AC-178D80AAA0D1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

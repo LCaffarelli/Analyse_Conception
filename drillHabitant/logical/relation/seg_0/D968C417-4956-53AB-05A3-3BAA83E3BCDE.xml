@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_5" directorySegmentName="seg_0" id="D968C417-4956-53AB-05A3-3BAA83E3BCDE">
+<createdBy>lcaffarelli2022</createdBy>
+<createdTime>2023-02-21 15:52:54 UTC</createdTime>
+<ownerDesignName>drillHabitant</ownerDesignName>
+<engineerTo>
+<item key="A9C014AD-25B2-48F9-3A89-77E8F31D510C" value="true"/>
+</engineerTo>
+<sourcePk>F0593B61-6FFF-81FE-CCB0-D170697E7E6C</sourcePk>
+<targetPk>3EF5D731-E9FD-02E3-A0CD-DB7360828BC8</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>6258785C-7C20-E319-AB5C-1F8053F5467B</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>A8664F90-F107-4D9E-0090-5EC5590DA1FB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

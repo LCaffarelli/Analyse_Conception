@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9F6055CF-9BDE-B624-599E-34C1A432EBAB" name="PERSONNE">
+<createdBy>lcaffarelli2022</createdBy>
+<createdTime>2023-02-21 16:09:52 UTC</createdTime>
+<ownerDesignName>drillParent</ownerDesignName>
+<engineerTo>
+<item key="F44DF17C-8978-06C6-995A-DF3ECB227B5D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="numIdentifiant" id="8820A099-D4A1-F919-A901-D8B19D1E8100">
+<createdBy>lcaffarelli2022</createdBy>
+<createdTime>2023-02-21 16:10:02 UTC</createdTime>
+<ownerDesignName>drillParent</ownerDesignName>
+<engineerTo>
+<item key="F44DF17C-8978-06C6-995A-DF3ECB227B5D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nom" id="A069C6E8-C085-F956-C8A8-AA2883A2E588">
+<createdBy>lcaffarelli2022</createdBy>
+<createdTime>2023-02-21 16:10:23 UTC</createdTime>
+<ownerDesignName>drillParent</ownerDesignName>
+<engineerTo>
+<item key="F44DF17C-8978-06C6-995A-DF3ECB227B5D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="prenom" id="DCAF6DF9-5E01-2AB5-BDF0-0B3DA60B4311">
+<createdBy>lcaffarelli2022</createdBy>
+<createdTime>2023-02-21 16:10:32 UTC</createdTime>
+<ownerDesignName>drillParent</ownerDesignName>
+<engineerTo>
+<item key="F44DF17C-8978-06C6-995A-DF3ECB227B5D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dateNaissance" id="14456815-67AF-2029-ECE1-922533F033A0">
+<createdBy>lcaffarelli2022</createdBy>
+<createdTime>2023-02-21 16:10:40 UTC</createdTime>
+<ownerDesignName>drillParent</ownerDesignName>
+<engineerTo>
+<item key="F44DF17C-8978-06C6-995A-DF3ECB227B5D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numIdentifiant1" id="337A1556-9C64-D544-E9AF-B0EE7DED0670">
+<createdBy>lcaffarelli2022</createdBy>
+<createdTime>2023-02-21 16:19:17 UTC</createdTime>
+<generatorID>FBC8C622-5A29-C873-7EF5-5B45F9264594</generatorID>
+<ownerDesignName>drillParent</ownerDesignName>
+<engineerTo>
+<item key="F44DF17C-8978-06C6-995A-DF3ECB227B5D" value="true"/>
+</engineerTo>
+<referedAttribute>8820A099-D4A1-F919-A901-D8B19D1E8100</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numIdentifiant2" id="E6545E78-7EF7-0672-0072-61EF343268D4">
+<createdBy>lcaffarelli2022</createdBy>
+<createdTime>2023-02-21 16:20:17 UTC</createdTime>
+<generatorID>3AB111F8-9D53-EA30-2840-3B987F74798B</generatorID>
+<ownerDesignName>drillParent</ownerDesignName>
+<engineerTo>
+<item key="F44DF17C-8978-06C6-995A-DF3ECB227B5D" value="true"/>
+</engineerTo>
+<referedAttribute>8820A099-D4A1-F919-A901-D8B19D1E8100</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F7739A64-56C0-79DB-EF4F-E496B460D1B5" name="PERSONNE PK">
+<createdBy>lcaffarelli2022</createdBy>
+<createdTime>2023-02-21 16:10:21 UTC</createdTime>
+<ownerDesignName>drillParent</ownerDesignName>
+<engineerTo>
+<item key="F44DF17C-8978-06C6-995A-DF3ECB227B5D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8820A099-D4A1-F919-A901-D8B19D1E8100</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
